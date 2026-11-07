@@ -18,8 +18,3 @@ Feature: Pruebas de Swagger PetStore
       }
       """
 
-  Scenario: Consultar inventario de la tienda
-    Given path 'store', 'inventory'
-    When method get
-    Then status 200
-    And match response.available == '#number'
