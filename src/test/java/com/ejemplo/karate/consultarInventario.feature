@@ -1,4 +1,6 @@
-Feature: Pruebas de Swagger PetStore
+Feature: Consultar el inventario de Swagger PetStore
+  Consulta el inventario de la tienda y valida que el conteo de mascotas
+  disponibles devuelto por la API sea numérico.
 
   Background:
     * url 'https://petstore.swagger.io/v2'
